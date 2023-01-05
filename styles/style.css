@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+.primary-button{
+    background: #FF5959;
+    border: 0;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+/* Hero section Style */
+.header-section {
+    text-align: center;
+    background: url(../images/donation1.jpg) rgba(0, 0, 0, 0.368);
+    background-size: cover;
+    background-blend-mode: overlay;
+    padding: 150px 200PX;
+}
+
+.hero-title {
+    font-size: 65px;
+    font-weight: 700;
+    color: white;
+}
+
+.hero-subtitle {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
