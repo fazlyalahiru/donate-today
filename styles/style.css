@@ -3,6 +3,10 @@
     font-family: 'Inter', sans-serif;
 }
 
+section {
+    padding: 0 200px;
+}
+
 .primary-button {
     background: #FF5959;
     border: 0;
@@ -14,6 +18,7 @@
 
 section {
     margin: 100px 0;
+
 }
 
 /* Hero section Style */
@@ -69,6 +74,8 @@ section {
 .section-title {
     color: #121212;
     font-size: 45px;
+    text-align: center;
+
 }
 
 .section-description {
@@ -76,6 +83,7 @@ section {
     font-size: 18px;
     margin: 10px 0;
     line-height: 1.5;
+    text-align: center;
 }
 
 input {
@@ -85,4 +93,90 @@ input {
     border-right: none;
     padding: 10px 0;
     text-align: center;
+}
+
+.submit-botton {
+    margin: 20px 0px 0px 0px;
+}
+
+/* donate plane styles */
+.donate-plna-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.donate-plna-container img {
+    width: 40px;
+    height: 30px;
+}
+
+.donate-plan-title {
+    color: #121212;
+    margin: 10px 0px;
+    font-size: 22px;
+}
+
+.donate-plan-description {
+    color: #707070;
+    font-size: 14px;
+    padding: 0px 0px 10px 0px;
+}
+
+.donate-sub-plan1 {
+    padding: 50px 25px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    display: grid;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.donate-sub-plan2 {
+    padding: 50px 25px;
+    background: rgba(255, 89, 89, 0.1);
+    ;
+    border-radius: 5px;
+    display: grid;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.donate-sub-plan3 {
+    padding: 50px 25px;
+    background: #FFF4D6;
+    border-radius: 5px;
+    display: grid;
+    align-items: center;
+    margin: 10px 10px;
+}
+/* depand donation styles */
+
+.depend-donation-left {
+    display: flex;
+}
+
+.depend-donation-left img {
+    width: 400px;
+}
+.section-title {
+    color: #121212;
+    font-size: 45px;
+    text-align: center;
+
+}
+.depend-title {
+    color: #121212;
+    font-size: 45px;    
+}
+.depend-subtitle{
+    color: #707070;
+    font-size: 14px;
+    margin: 15px 0;
+}
+.donation-depend{
+    padding-right: 50px;
+}
+/* donation survive styles */
+.donation-survive{
+    padding-left:50px;
 }
